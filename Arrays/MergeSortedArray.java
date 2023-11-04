@@ -7,7 +7,7 @@ public class MergeSortedArray {
         int i = 0; // traverse arr1
         int j = 0; // traverse arr2
         int k = 0; // traverse result
-
+        int u=0;
         while(i < n && j < m){ // boundary conditions
             if(arr1[i] < arr2[j]){ // if arr1 element at i is less than arr2 element at j
                 result[k] = arr1[i]; // storing arr1 element into result
