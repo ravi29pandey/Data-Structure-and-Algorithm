@@ -14,6 +14,8 @@ public class ArrayUtil {
         System.out.println();
     }
 
+
+
     public int findMinimum(int[] arr) {
         // edge case
         if (arr == null || arr.length == 0) {
